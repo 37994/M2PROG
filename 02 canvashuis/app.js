@@ -9,6 +9,6 @@ class App
         console.log(canvas);
     }
 }
-
+ 
 let app = new App();
 app.runApplication();
