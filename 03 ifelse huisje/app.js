@@ -63,6 +63,8 @@ class App
         console.log(canvas);
 
         let randomGetal = Math.random();
+        let randomgetal2 = Math.random();
+
 
         if(randomGetal < 0.5)
         {
@@ -78,6 +80,24 @@ class App
         g.lineTo(500, 550);
         g.lineTo(500, 450);
         g.lineTo(300, 400);
+        g.closePath();
+        g.stroke();
+        g.fill();
+
+        if(randomgetal2 < 0.5)
+        {
+            g.fillStyle = "yellow";
+        }
+        else if(randomgetal2 > 0.5)
+        {
+            g.fillStyle = "black"
+        }console.log(randomgetal2)
+        g.beginPath();
+        g.moveTo(30, 40);
+        g.lineTo(30, 50);
+        g.lineTo(50, 55);
+        g.lineTo(50, 45);
+        g.lineTo(30, 40);
         g.closePath();
         g.stroke();
         g.fill();

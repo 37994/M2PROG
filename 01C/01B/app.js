@@ -9,6 +9,12 @@ class App {
         this.copyright = 'ja'
         this.distributeur = 'iemand'
         this.darkmode = true
+        let a = false;
+        let b = 'b';
+        let c = 3
+        console.log(a);
+        console.log(b);
+        console.log(c);
         console.log(this.greeting)
         console.log('App Naam: '+this.appNaam);
         console.log('versie nummer: '+this.versienummer);

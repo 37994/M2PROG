@@ -1,6 +1,5 @@
-class App {
-
-    runApplication() {
+ runApplication() 
+ {
         let appNaam = 'naam';
         let versienummer = 9;
         let versiedatum = new Date();
@@ -15,9 +14,4 @@ class App {
         console.log('copyrights: '+copyright);
         console.log('distributeur: '+distributeur);
         console.log('darkmode: '+darkmode);
-        
-    }
 }
-
-let app = new App();
-app.runApplication();
