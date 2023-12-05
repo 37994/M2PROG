@@ -1,18 +1,23 @@
+function superMooieGlobalFunction()
+{
+    console.log('ik ben global');
+    console.log('dus je mag mij overal aanroepen');
+}
+
+superMooieGlobalFunction();
+superMooieGlobalFunction();
+superMooieGlobalFunction();
+
+
+
 class App {
 
-    superMooieGlobalFunction() {
-        console.log('ik ben gobaal');
-        console.log('dus amg je mij overal asanroepen');
-        
+    runApplication() {
+        console.log('hello world')
+        superMooieGlobalFunction();
+
     }
 }
 
 let app = new App();
-app.superMooieGlobalFunction();
-
-function aanroepVoorbeeld();
-{
-
-}
-
-aanroepVoorbeeld();
+app.runApplication();
