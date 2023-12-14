@@ -30,23 +30,44 @@
 
 class App {
 
-    runApplication() {
+//   runApplication() {
+//
+//       console.log('hello world');
+//   }
+//
+//   newClassFunction() {
+//       
+//       console.log('hello world in de nieuwclassfunction');
+//   }
+//
+//   anotherFunctionWithArguments(aArgument) {
+//       console.log('hier:');
+//       console.log(aArgument);
+//   }
 
-        console.log('hello world');
+    mario() {
+        console.log('MARIO!!');
     }
 
-    newClassFunction() {
-        
-        console.log('hello world in de nieuwclassfunction');
+    bwah() {
+        console.log('BWAHAHA!!!');
     }
 
-    anotherFunctionWithArguments(aArgument) {
-        console.log('hier:');
-        console.log(aArgument);
+    maffs() {
+        let a = 1;
+        let b = 2;
+
+        let c = (a+b);
+        console.log(c);
+    }
+
+    abc() {
+        console.log('abc')
     }
 }
 
 let app = new App();
-app.runApplication();
-app.newClassFunction();
-app.anotherFunctionWithArguments("mijn argument is iets...");
+app.mario();
+app.bwah();
+app.maffs();
+app.abc();
