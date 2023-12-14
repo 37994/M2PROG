@@ -1,3 +1,9 @@
+function argumentsAreHandy(shoutout)
+{
+    console.log('do you want to give a shoutout');
+    console.log(shoutout);
+}
+
 function superMooieGlobalFunction()
 {
     console.log('ik ben global');
