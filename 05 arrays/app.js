@@ -16,7 +16,10 @@ class App{
 
         for(let i = 0; i<arr.length;i++)
         {
-            console.log(i+": "+arr[i])
+            arr.push("bob Dylan", "prince");
+            console.log(i+": "+arr[i]);
+            arr.splice("prince");
+            console.log(i+": "+arr[i]);
         }
     }
 }
