@@ -35,11 +35,17 @@ class App{
             console.log(textDing);
         }
 
-        mijnH1[0].innerText = "nieuwe text";
-        mijnH1[1].innerText = "andere nieuwe text";
-        mijnH1[2].innerText = "nog een nieuwe text";
-        for(const textDing of mijnH1[0].innerText) {
-            console.log(textDing);
+        //mijnH1[0].innerText = "nieuwe text";
+        //mijnH1[1].innerText = "andere nieuwe text";
+        //mijnH1[2].innerText = "nog een nieuwe text";
+        //for(const textDing of mijnH1[0].innerText) {
+        //    console.log(textDing);
+        //}
+
+        let data = ["rainbow six siege", "war thunder", "escape from tarkov", "tax evasion simulator", "train sim world 3"];
+        for(let i = 0; i<data;i++)
+        {
+            data.headersByCssClass[1];
         }
     }
 }
