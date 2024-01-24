@@ -21,6 +21,26 @@ class App{
             arr.splice("prince");
             console.log(i+": "+arr[i]);
         }
+
+        let h1s = document.getElementsByClassName("spelen");
+        for(const headers of h1s) {
+            console.log(headers);
+        }
+
+        let mijnH1 = document.getElementById("headerId");
+        console.log(mijnH1.innerText);
+
+        mijnH1.innerText = "nieuwe text";
+        for(const textDing of mijnH1.innerText) {
+            console.log(textDing);
+        }
+
+        mijnH1[0].innerText = "nieuwe text";
+        mijnH1[1].innerText = "andere nieuwe text";
+        mijnH1[2].innerText = "nog een nieuwe text";
+        for(const textDing of mijnH1[0].innerText) {
+            console.log(textDing);
+        }
     }
 }
 
