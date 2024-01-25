@@ -1,0 +1,15 @@
+class App {
+
+    runApplication() {
+        console.log("hello world");
+        let uiButton = document.getElementById('knop');
+
+        let localeFuntion = function (e) {
+            console.log("click!");
+        };
+        uiButton.addEventListener("click", localeFuntion);
+    }
+}
+
+let app = new App();
+app.runApplication();
