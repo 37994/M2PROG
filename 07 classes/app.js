@@ -6,18 +6,34 @@ class App {
 
 class Greet {
     constructor() {
-        console.log("greetings!");
+    }
+
+    showGreeting() {
+        console.log("greetings")
     }
 }
 
 class Goodbye {
     constructor() {
-        console.log("buh bye!");
+    }
+
+    showGoodbye() {
+        console.log("buh bye")
     }
 }
 
 let geet = new Greet();
 let goodby = new Goodbye();
-
 let app = new App();
+
+geet.showGreeting();
+goodby.showGoodbye();
+
+geet.showGreeting();
+goodby.showGoodbye();
+
+geet.showGreeting();
+goodby.showGoodbye();
+
 app.runApplication();
+
