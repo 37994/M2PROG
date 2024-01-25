@@ -7,7 +7,9 @@ class App {
         let localeFuntion = function (e) {
             console.log("click!");
         };
-        uiButton.addEventListener("click", localeFuntion);
+        uiButton.addEventListener("click", (e) => {
+            console.log("click!")
+        });
     }
 }
 
